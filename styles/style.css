@@ -63,22 +63,22 @@ body {
         width: 155px;
     }
 
-    @media all and (min-width: 768px) {
-        .logo{
-            padding: 20px 0 20px 30px;
-        }
-        
-        .header {
-            flex-direction: row;   
-        }
-
-        .nav {
-            text-align: right;
-            padding-right: 30px;
-        }
-
-        .container h1 {
-            font-size: 40px;
-            width: 300px;
-        }
+@media all and (min-width: 768px) {
+    .logo{
+        padding: 20px 0 20px 30px;
     }
+    
+    .header {
+        flex-direction: row;   
+    }
+
+    .nav {
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .container h1 {
+        font-size: 40px;
+        width: 300px;
+    }
+}
