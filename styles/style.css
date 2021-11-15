@@ -69,7 +69,12 @@ body {
         }
         
         .header {
-            flex-direction: row;     
+            flex-direction: row;   
+        }
+
+        .nav {
+            text-align: right;
+            padding-right: 30px;
         }
 
         .container h1 {
